@@ -15,6 +15,10 @@ public class Main {
 
         IO.println("Available book count is: " + availableBookCount);
 
+        String firstName = "pelle";
+        String lastName = "pellesson";
+        String fullName = firstName + " " + lastName;
+        IO.println("Välkommen till " + libraryName + ", " + fullName);
 
     }
 }
