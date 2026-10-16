@@ -10,6 +10,11 @@ public class Main {
         libraryName = "pierre och felix bibliotek";
         IO.println(libraryName + "\n" + bookCount + "\n" + isOpen);
 
+        int borrowedBookCount = 8;
+        int availableBookCount = bookCount - borrowedBookCount;
+
+        IO.println("Available book count is: " + availableBookCount);
+
 
     }
 }
